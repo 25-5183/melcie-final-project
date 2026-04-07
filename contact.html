@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Beauty Studio - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Glow Beauty Studio</h1>
+    <p>Book your beauty appointment today</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="section">
+    <h2>Book an Appointment</h2>
+    <form onsubmit="bookNow(); return false;">
+        <input type="text" placeholder="Enter your full name" required>
+        <input type="email" placeholder="Enter your email" required>
+        <input type="tel" placeholder="Enter your phone number" required>
+        
+        <select required>
+            <option value="">Choose a service</option>
+            <option>Bridal Makeup</option>
+            <option>Soft Glam</option>
+            <option>Photoshoot Makeup</option>
+            <option>Skincare Prep</option>
+        </select>
+
+        <textarea rows="5" placeholder="Enter your message or booking details"></textarea>
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+<section class="section">
+    <h2>Our Contact Information</h2>
+    <p><b>Phone:</b> +254 700 123 456</p>
+    <p><b>Email:</b> info@glowbeautystudio.com</p>
+    <p><b>Location:</b> Nairobi, Kenya</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Glow Beauty Studio | Designed by Mel</p>
+</footer>
+
+<div class="top-btn" id="topBtn" onclick="scrollToTop()">↑</div>
+
+<script src="script.js"></script>
+</body>
+</html>
